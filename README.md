@@ -35,12 +35,12 @@ Follow these steps to install WireGuard on your server:
 
 2. **Make the Script Executable**:
    ```bash
-   chmod +x wireguard-install.sh
+   chmod +x setup.sh
    ```
 
 3. **Run the Script**:
    ```bash
-   ./wireguard-install.sh
+   ./setup.sh
    ```
 
 The script will automatically install the WireGuard kernel module and tools, configure the server, and generate a client configuration file. Rerun the script anytime to manage clients.
